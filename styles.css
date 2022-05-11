@@ -1,0 +1,113 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+  font-family: monospace;
+  font-size: 35px;
+  color: white;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 90vh;
+  background-color: darkgoldenrod;
+}
+
+.header {
+  width: 1500px;
+  max-width: 90%;
+  background-color: maroon;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.5);
+  margin: auto;
+  margin-top: 2%;
+}
+
+.pagetab {
+  display: grid;
+  grid-template-columns: repeat(5, auto);
+  row-gap: 15px;
+  column-gap: 3%;
+  justify-content: center;
+  align-items: center;
+}
+
+.tabbtn {
+  background-color: hsl(29, 100%, 38%);
+  border: 1px solid hsl(19, 100%, 38%);
+  border-radius: 10px;
+  padding: 10px 40px;
+  color: white;
+  outline: none;
+}
+
+.tabbtn:hover {
+  border-color: yellow;
+}
+
+.container {
+  width: 1000px;
+  max-width: 80%;
+  background-color: maroon;
+  padding: 10px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.5);
+  margin: auto;
+  margin-top: 8%
+}
+
+.btn-grid {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  row-gap: 15px;
+  column-gap: 40px;
+  margin-top: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn {
+  background-color: hsl(29, 100%, 38%);
+  border: 1px solid hsl(19, 100%, 38%);
+  border-radius: 10px;
+  padding: 15px 50px;
+  color: white;
+  outline: none;
+}
+
+.btn:hover {
+  border-color: yellow;
+}
+
+.infodisplay {
+  width: 1000px;
+  max-width: 80%;
+  background-color: maroon;
+  padding: 10px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.5);
+  margin: auto;
+  margin-top: 8%
+}
+
+.qrdisplay {
+  width: 600px;
+  max-width: 80%;
+  background-color: maroon;
+  padding: 10px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.5);
+  margin: auto;
+  margin-top: 8%;
+  text-align: center;
+}
